@@ -25,7 +25,7 @@
             app:layout_constraintStart_toStartOf="parent" android:contentDescription="@string/app_logo"/>
     <TextView
             android:text="@string/go_all_in"
-            android:layout_width="228dp"
+            android:layout_width="229dp"
             android:layout_height="56dp"
             android:id="@+id/textView2" android:textColor="@android:color/white"
             android:fontFamily="@font/montserrat" android:textSize="46sp" android:layout_marginTop="80dp"
@@ -34,13 +34,14 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.557"/>
     <TextView
             android:text="@string/on_going_all_out"
-            android:layout_width="wrap_content"
+            android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView3" android:textColor="@android:color/white"
-            android:textSize="22sp" android:fontFamily="@font/montserrat"
+            android:textSize="18sp" android:fontFamily="@font/montserrat"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:layout_constraintEnd_toEndOf="@+id/textView2" app:layout_constraintStart_toStartOf="@+id/textView2"
-            android:textStyle="bold"/>
+            android:textStyle="bold" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.544"/>
     <TextView
             android:text="@string/find_a_team_in_your_city_and_dominate_the_league"
             android:layout_width="183dp"
@@ -56,8 +57,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/getStartedBtn" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp" android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="parent" android:fontFamily="@font/montserrat"
             android:background="@drawable/swoosh_button" android:textColor="@android:color/white"/>
 
