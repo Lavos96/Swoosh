@@ -1,8 +1,8 @@
-package com.kowalczyk.michal.swoosh
+package com.kowalczyk.michal.swoosh.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.kowalczyk.michal.swoosh.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class WelcomeActivity : BaseActivity() {
@@ -23,7 +23,7 @@ class WelcomeActivity : BaseActivity() {
             //analogia cpontextu wchodzisz do pokoju w ktorym kloci sie 2 ludzi i masz powiedziec ktory ma racje
             //kontekst tylko tego widoku to dostajesz informacje kim sa ci dwaj ludzie i o co sie kloca
             //kontekst calej apki to dostajesz info o wszystkich ludziach w tym budynku i otym o czym gadaja lub sie kloca
-            val leagueIntent=Intent(this,LeagueActivity::class.java)
+            val leagueIntent=Intent(this, LeagueActivity::class.java)
             startActivity(leagueIntent)
         }
     }

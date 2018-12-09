@@ -1,4 +1,4 @@
-package com.kowalczyk.michal.swoosh
+package com.kowalczyk.michal.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
